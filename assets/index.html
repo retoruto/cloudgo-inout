@@ -1,1 +1,33 @@
-a
+<html>
+    <head>
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="hello.js"></script>
+    </head>
+    <body>
+          <div>
+              <img src="./IMG_7595.JPG" >
+              <p class="title"></p>
+              
+          </div>
+
+        <form action="/table" method="post">
+            Name:<input type="text" value="" name="name"><br><br>
+            Sex:
+                    <input type="radio" name="sex" value="1">Male
+                    <input type="radio" name="sex" value="2">Female
+                    <input type="radio" name="sex" value="3">Secret<br><br>
+            Member:
+                    &nbsp<input type="radio" name="mem" value="1">Ohno Satoshi
+                    <input type="radio" name="mem" value="2">Sakurai Sho
+                    <input type="radio" name="mem" value="3">Aiba Masaki<br><br>
+             &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+             <input type="radio" name="mem" value="4">Ninomiya Kazunari
+                    <input type="radio" name="mem" value="5">Matsumoto Jun<br><br>
+            Address:&nbsp <input type="text" name="addr"><br><br> 
+            Phone:&nbsp &nbsp&nbsp <input type="text" name="phone"><br><br> 
+            Email:&nbsp &nbsp&nbsp&nbsp <input type="text" name="email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </body>
+</html>
